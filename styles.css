@@ -1,0 +1,54 @@
+/* Global */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /*padding-top: 8rem;
+    padding-bottom: 100rem;*/
+    background-color: rgb(36, 36, 36);
+    
+}
+
+.navbar-brand {
+    /* width: 100%; */
+    font-size: 1.5em;
+    font-family: Helvetica;
+    color: #7F20EA !important;
+}
+
+.bg1 {
+    min-height: 100%;
+    background-image: url(2k.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    height: 100%;
+}
+
+.shjpg {
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    width: 100%;
+}
+
+.announcement {
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    width: 100%;
+}
+
+.comingsoon {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+}
