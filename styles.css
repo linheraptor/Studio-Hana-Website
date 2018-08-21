@@ -31,16 +31,16 @@ main {
     height: 100%;
 }
 
-.shjpg {
+.shlogo {
     position: absolute;
-    top: 60%;
+    top: 5%;
     text-align: center;
     width: 100%;
 }
 
 .announcement {
     position: absolute;
-    top: 80%;
+    top: 25%;
     text-align: center;
     width: 100%;
 }
@@ -51,4 +51,12 @@ main {
     padding: 18px;
     font-size: 2rem;
     letter-spacing: 0.5rem;
+}
+
+.emailsignup {
+    position: absolute;
+    top: 90%;
+    left:50%;
+    text-align: center;
+    width: 100%;
 }
