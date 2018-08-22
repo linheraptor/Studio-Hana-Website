@@ -1,6 +1,7 @@
 /* Global */
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 
@@ -8,7 +9,6 @@ body {
     /*padding-top: 8rem;
     padding-bottom: 100rem;*/
     background-color: rgb(36, 36, 36);
-    
 }
 
 .navbar-brand {
@@ -19,7 +19,8 @@ body {
 }
 
 .bg1 {
-    min-height: 100%;
+    position: relative;
+    height: 100%;
     background-image: url(2k.jpg);
     background-attachment: fixed;
     background-position: top center;
@@ -29,6 +30,8 @@ body {
 
 main {
     height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 .shlogo {
@@ -59,4 +62,18 @@ main {
     left:50%;
     text-align: center;
     width: 100%;
+}
+
+.section {
+    padding-top: 5rem;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+#about {
+    background-color: #30231d;
+}
+
+#contact {
+    background-color: #6a5750;
 }
